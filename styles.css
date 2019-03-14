@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+/* #left-items a:visited {
+  color: purple;
+} */
+
 #topline {
   height: 3px;
   background-color: rgba(144, 144, 144);
@@ -70,19 +74,24 @@ h1 {
   color: green;
 }
 #input-field {
+  /* margin: 0 auto; */
+  /* width: 80%; */
   display: flex;
-  justify-content: center;
-  transform: translate(70px);
+  /* justify-content: center;
+  transform: translate(11%); */
 }
 #input {
-  width: 500px;
+  width: 60%;
   height: 30px;
   padding: 1px;
-  margin: 0 10px;
+  margin: 0 auto;
+  position: relative;
 }
 
 #a-input {
   width: 130px;
+  position: absolute;
+  left: 81%;
 }
 
 #buttons {
@@ -95,6 +104,10 @@ h1 {
 
 #footer a {
   margin: 0 7px;
+}
+
+#bottom-nav {
+  margin-top: 75px;
 }
 
 #bottom {
